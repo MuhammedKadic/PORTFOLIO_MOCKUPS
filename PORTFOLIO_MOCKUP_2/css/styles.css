@@ -1,0 +1,39 @@
+/*
+THIS CSS FILE HAS BEEN CODED BY MUHAMMED KADIC THE CSS USED HERE IS ALL FROM
+SCRATCH AND SHOULD ONLY BE USED FOR EDUCATIONAL PURPOSES ONLY.
+*/
+/* GLOBAL ELEMENTS */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* MOBILE FIRST DEVELOPMENT */
+/* THIS IS NAVIGATION BAR */
+/* THIS IS FOR DESKTOP DEVELOPMENT */
+@media only screen and (min-width: 690px) {
+
+  /* OPTIMIZE: THIS WILL NEED SOME OPTIMIZATION LATER ON */
+  /* THIS IS THE NAV PORTION OF THIS WEBSITE */
+    nav {
+      background-color: white;
+      padding: 20px 20px;
+    }
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+    }
+    nav ul li {
+      list-style-type: none;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+    }
+
+
+  /* THIS IS THE BODY PORTION OF THE WEBSITE */
+  body {
+    background-color: orange;
+  }
+}
